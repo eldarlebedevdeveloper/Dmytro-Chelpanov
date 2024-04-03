@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- <link rel="stylesheet" href="css/slyle.css">
-    <link rel="stylesheet" href="css/blog.css"> -->
-
-    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/css/slyle.css" />
-    <link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/css/blog.css" />
-     
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/css/slyle.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/css/blog.css" />
     <?php wp_head(); ?>
-
     <title>Dmytro Chelpanov</title>
 </head>
+
 <body>
     <header class="header">
         <div class="header_logo">
@@ -52,8 +47,8 @@
         <div class="blog_header">
             <h2><span>blog</span></h2>
             <p>My blog covers everything related to doing business in Ukraine,
-               including market reviews, e-commerce,<br> taxation, and other localization
-               specifics as a part of the overall go-to-market.</p>
+                including market reviews, e-commerce,<br> taxation, and other localization
+                specifics as a part of the overall go-to-market.</p>
             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/ribbed_big.png" class="ribbed" alt="">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/img/blog/square.png" alt="">
         </div>
@@ -96,7 +91,6 @@
                 <p class="blog_date bold">15.09.2021</p>
                 <a href="blog-single-page.html" class="strikethrough"><span>read</span></a>
             </div>
-          
         </div>
     </section>
 
@@ -105,15 +99,15 @@
         <img src="<?php echo get_stylesheet_directory_uri() ?>/img/blog/triangle_2.png" alt="">
         <h2>Subscribe to our newsletter </h2>
         <p>I’m 100% committed to protecting your privacy and will use your <br class="desc">
-               information only to provide you with the relevant content. You can <br class="desc"> unsubscribe at any time.</p>
+            information only to provide you with the relevant content. You can <br class="desc"> unsubscribe at any
+            time.</p>
         <form action="" class="form">
             <input type="text" name="mail" placeholder="E-mail">
-            <div class="button"> 
+            <div class="button">
                 <button>subscribe</button>
             </div>
         </form>
     </section>
-
     <section class="blogFooter">
         <div id="blogFooter_posts" class="blog">
             <div class="blog_item">
@@ -169,7 +163,7 @@
                     part or are curious about other specifics of the Ukrainian e-commerce.....</p>
                 <p class="blog_date bold">15.09.2021</p>
                 <a href="blog-single-page.html" class="strikethrough"><span>read</span></a>
-            </div>            
+            </div>
         </div>
     </section>
     <?php get_footer(); ?>
